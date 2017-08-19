@@ -13,14 +13,14 @@ A partir de uma rota fornecida, o crawler irá procurar o episodio do anime nos 
 ```
 [
     {
-        _id: 'example1'
-        anime: 'Naruto Shippuden',
+        _id: 'example1',
+        name: 'Naruto Shippuden',
         episode: 100,
         datasource: 'uol'
     },
     {
         _id: 'example2',
-        anime: 'One piece',
+        name: 'One piece',
         episode: 999999,
         datasource: 'animesonline'
     }

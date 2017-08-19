@@ -4,7 +4,7 @@
   "description": "Crawler named as Hyuuga, because he craw all content of animes",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "start-dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,7 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "express": "^4.15.3"
+    "knoblr": "^2.4.0",
+    "normalize-url": "^1.9.1",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
