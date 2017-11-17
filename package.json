@@ -16,6 +16,7 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "knoblr": "^2.4.0",
+    "mongoose": "^4.13.3",
     "normalize-url": "^1.9.1",
     "request": "^2.81.0"
   },

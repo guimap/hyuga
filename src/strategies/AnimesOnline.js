@@ -34,7 +34,7 @@ class AnimesOnline {
             const REGEX_LINKVIDEO = /id\=\"urlVideo\"\s+src\=\"\/\/(.?.*\==)/
             const regex = new RegExp(REGEX_LINKVIDEO,'ig')
             const linkVideo = regex.exec(response.body)[1] || ''
-            logger.info(`Search done`)
+            logger.info(`Search done, found the ${linkVideo}`)
             resolve(normalize(linkVideo))
         })
     }

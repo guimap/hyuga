@@ -17,6 +17,18 @@ module.exports = {
             name: 'Nobunaga No Shinobi',
             episode: 1,
             datasource: 'animesonline'
+        },
+        {
+            _id: 'example2',
+            name: 'Boku No Hero Academia',
+            episode: 38,
+            datasource: 'animesonline'
+        },
+        {
+            _id: 'example2',
+            name: 'Boku No Hero Academia',
+            episode: 37,
+            datasource: 'animesonline'
         }
     ]
 }
